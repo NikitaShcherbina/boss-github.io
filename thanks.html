@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>thanks</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/thanks.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+	<img class="man" src="img/thanks/man.png" alt="">
+	<img class="btc anim_triangle" src="img/about/btc.png" alt="">
+	<img class="ripple  anim_triangle2" src="img/about/ripple.png" alt="">
+	<img class="eth anim_triangle5" src="img/about/eth.png" alt="">
+	<div class="content">
+		<img class="line_thanks" src="img/thanks/line.png" alt="">
+		<div class="text">
+			<h1>Круто! Ты стал частью <br/>
+			сообщества CryptoBoss! </h1>
+			<p>Я рад, что ты проявил желание открыть прибыльный бизнес <br/>
+			по моей франшизе и приобщиться к команде <span class="accent-color">CryptoBoss</span>. <br/><br/>
+			В ближайшие несколько часов я свяжусь с тобой и мы лично<br/>
+			 пообщаемся о <span class="accent-color">проекте криптообменника</span>. Я расскажу тебе, что<br/>
+			  нужно делать дальше, где брать клиентов и как ты будешь<br/>
+			   получать свой процент от этих заказов <br/><br/>
+			А пока ты ждешь звонка — переходи на мой <span class="accent-color">YouTube канал</span> <br/>
+			и узнай больше последних новостей о криптовалютах 
+			</p>
+			<button><a href="">смотреть youtube канал</a></button>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("button").mouseout(function(){
+        $(this).addClass("anim-button");
+        setTimeout(function(){ $("button").removeClass("anim-button"); }, 200);
+    	});
+	</script>
+</body>
+</html>
